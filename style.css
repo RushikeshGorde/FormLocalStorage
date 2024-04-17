@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+#container {
+    height: 100vh;
+
+
+    
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/772520/pexels-photo-772520.jpeg?auto=compress&cs=tinysrgb&w=600);
+    
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.form {
+    display: none;
+}
+
+#dashboard {
+    display: none;
+    width: 100%;
+}
+#registrationForm{
+    margin-top: 50px;
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+    color: rgb(30, 210, 192);
+    box-shadow: 3px 3px 3px 3px rgb(7, 22, 44);
+}
+#registrationForm a{
+    color: white;
+}
+
+#loginForm{
+    margin-top: 50px;
+    height: 270px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+    color: rgb(30, 210, 204);
+    box-shadow: 3px 3px 3px 3px rgb(7, 22, 44);
+}
+
+#loginForm a{
+    color: white;
+}
+#userInfo{
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+    background-color: floralwhite;
+}
+th{
+    border: 1px solid black;
+}
+button{
+    background-color: chocolate;
+    
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
