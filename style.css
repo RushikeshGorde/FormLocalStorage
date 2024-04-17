@@ -47,18 +47,21 @@ width: 100%;
 #loginForm {
     margin-top: 50px;
     height: 270px;
-    width: 350px;
+    width: 100%;
     border: 1px solid black;
     border-radius: 10px;
 
-    color: rgb(30, 210, 204);
+   
     box-shadow: 3px 3px 3px 3px rgb(7, 22, 44);
 }
 
 #loginForm a {
     color: white;
 }
-
+table{
+    width: 100%;
+    border: 50px solid green;
+}
 #userInfo {
     border: 1px solid black;
 }
@@ -71,7 +74,9 @@ tr {
 th {
     border: 1px solid black;
 }
-
+.tb{
+    width: 100%;
+}
 button {
     background-color: chocolate;
 
